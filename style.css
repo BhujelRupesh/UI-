@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  padding: 1.2rem;
+  background-color: #34678d;
+}
+header {
+  display: flex;
+  padding: 3rem 0;
+}
+
+.headerSection {
+  width: 50%;
+  display: flex;
+  color: wheat;
+  
+}
+.firstSection {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.secondSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 40%;
+  height: 96%;
+  border-radius: 49%;
+}
+.projectTitle {
+  margin-bottom: 2rem;
+  color:wheat;
+}
+.headingMain{
+    display: grid;
+    color: wheat;
+    grid-template-columns: 80rem 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.headingMaintitles {
+  font-size: 1.6rem;
+  font-weight: 550;
+  font-family: sans-serif;
+}
+.projectSection {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 80rem 1fr 1fr 1fr;
+  column-gap: 2rem;
+
+}
+
+.oddSection {
+  background-color: white;
+  color: black;
+}
+.oddSectionLink{
+    color:black;
+}
+.evenSection{
+    color:wheat
+}
+.evenSectionLink{
+    color: wheat;
+}
+
+.linkTag {
+  list-style: none;
+  text-decoration: none;
+}
